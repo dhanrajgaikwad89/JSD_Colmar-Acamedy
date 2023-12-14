@@ -120,10 +120,16 @@ html {
   /* Header */
   
   header {
-    padding: 1rem 1.5rem;
+  size: 0cap;
+    
+   
+    
   }
   
   header .desktop {
+    background-image: url(main.jpg);
+    border-color: aqua;
+  
     display: flex;
     align-items: center;
   }
@@ -134,9 +140,7 @@ html {
     align-items: center;
   }
   
-  header .logo img {
-    margin-right: .5rem;
-  }
+  
   
   header li {
     display: inline;
